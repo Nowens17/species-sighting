@@ -5,6 +5,7 @@
         <element label="Cohabitation (Humans)" max_length="65536" name="cohabitation_humans" type="html"/>
         <element label="Cohabitation (Other Species)" max_length="65536" name="cohabitation_other_species" type="html"/>
         <element label="Common misidentification" max_length="65536" name="common_misidentification" type="html"/>
+        <element label="Common Names" max_length="40" name="common_names" type="string"/>
         <element label="Conservation status" max_length="65536" name="conservation_status" type="html"/>
         <element label="Diet" max_length="65536" name="diet" type="html"/>
         <element label="Habitat" max_length="65536" name="habitat" type="html"/>
@@ -17,7 +18,12 @@
         <element label="Overview" max_length="65536" name="overview" type="html"/>
         <element label="Prints" max_length="255" name="prints" type="user_image"/>
         <element choice="1" label="Rarity" max_length="40" name="rarity" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Common" sequence="0" value="Common"/>
+                <element inactive_on_update="false" label="Uncommon" sequence="1" value="Uncommon"/>
+                <element inactive_on_update="false" label="Rare" sequence="2" value="Rare"/>
+                <element inactive_on_update="false" label="Extremely Rare" sequence="3" value="Extremely Rare"/>
+            </choice>
         </element>
         <element label="Rarity notes" max_length="65536" name="rarity_notes" type="html"/>
         <element label="Scientific name" max_length="40" name="scientific_name" type="string"/>
@@ -25,8 +31,16 @@
         <element label="Signs and Tracks" max_length="65536" name="signs_and_tracks" type="html"/>
         <element label="Similar species" max_length="32" name="similar_species" type="glide_list"/>
         <element choice="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">
-            <choice/>
+            <choice>
+                <element inactive_on_update="false" label="Endangered" sequence="0" value="Endangered"/>
+                <element inactive_on_update="false" label="Threatened" sequence="1" value="Threatened"/>
+                <element inactive_on_update="false" label="Candidate" sequence="2" value="Candidate"/>
+                <element inactive_on_update="false" label="Proposed Endangered" sequence="3" value="Proposed Endangered"/>
+                <element inactive_on_update="false" label="Proposed Threatened" sequence="4" value="Proposed Threatened"/>
+                <element hint="Threatened due to similarity of appearance" inactive_on_update="false" label="SAT" sequence="5" value="SAT"/>
+            </choice>
         </element>
+        <element default="&lt;html&gt;&#10;    &lt;body&gt;&#10;        &lt;h1&gt;Guidelines for Status Levels&lt;/h1&gt;&#10;        &lt;ul&gt;&#10;            &lt;li&gt;&#10;                &lt;strong&gt;E: Endangered: &lt;/strong&gt;&#10;                Any species which is in danger of extinction throughout all or a significant &#10;portion of its range.&#10;            &lt;/li&gt;&#10;            &lt;li&gt;&#10;                &lt;strong&gt;T: Threatened: &lt;/strong&gt;&#10;                Any species which is likely to become endangered within the foreseeable future.&#10;            &lt;/li&gt;&#10;            &lt;li&gt;&#10;                &lt;strong&gt;C: Candidate: &lt;/strong&gt;&#10;                Plants or animals being reviewed for possible addition to the list of &#10;endangered and threatened species.&#10;            &lt;/li&gt;&#10;            &lt;li&gt;&#10;                &lt;strong&gt;PE: Proposed Endangered: &lt;/strong&gt;&#10;                Species officially proposed for listing as endangered; final ruling &#10;                not yet made.&#10;            &lt;/li&gt;&#10;            &lt;li&gt;&#10;                &lt;strong&gt;PT: Proposed Threatened: &lt;/strong&gt;&#10;                Species officially proposed for listing as threatened; final ruling not &#10;yet made.&#10;            &lt;/li&gt;&#10;            &lt;li&gt;&#10;                &lt;strong&gt;SAT: Threatened due to similarity of appearance: &lt;/strong&gt;&#10;                Species is listed for its protection due to &#10;similarity of appearance with another listed species. Species listed as SAT are not biologically &#10;threatened.&#10;            &lt;/li&gt;&#10;        &lt;/ul&gt;&#10;    &lt;/body&gt;&#10;&lt;/html&gt;" function_definition="E: Endangered: Any species which is in danger of extinction throughout all or a significant  portion of its range.  T: Threatened: Any species which is likely to become endangered within the foreseeable future.  C: Candidate: Plants or animals which USFWS is reviewing for possible addition to the list of  endangered and threatened species. PE: Proposed Endangered: Species officially proposed for listing as endangered; final ruling  not yet made. PT: Proposed Threatened: Species officially proposed for listing as threatened; final ruling not  yet made. SAT: Threatened due to similarity of appearance: Species is listed for its protection due to  similarity of appearance with another listed species. Species listed as SAT are not biologically  threatened." label="Status Guidelines" max_length="65536" name="status_guidelines" read_only="true" type="html"/>
         <element choice="1" label="Threat to humans" max_length="255" name="threat_to_humans" type="integer">
             <choice>
                 <element inactive_on_update="false" label="Minimal" sequence="0" value="1"/>

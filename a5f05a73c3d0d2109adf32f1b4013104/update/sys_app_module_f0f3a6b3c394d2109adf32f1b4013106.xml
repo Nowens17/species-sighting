@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Species Sighting">24312a3fc354d2109adf32f1b4013194</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint>Species Sighting Catalog</hint>
+        <homepage/>
+        <image/>
+        <link_type>DIRECT</link_type>
+        <map_page/>
+        <mobile_title>Species Sighting Catalog</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>50</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query>now/nav/ui/classic/params/target/com.glideapp.servicecatalog_category_view.do%3Fv%3D1%26sysparm_parent%3Dbf13ea73c394d2109adf32f1b4013193%26sysparm_no_checkout%3Dfalse%26sysparm_ck%3D2b8dce3fc35892109adf32f1b40131433aa03888234479e29ff6f83862f4dfe27a612147%26sysparm_view%3Dtext_search%26sysparm_catalog%3De0d08b13c3330100c8b837659bba8fb4%26sysparm_catalog_view%3Dcatalog_default</query>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 14:36:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f0f3a6b3c394d2109adf32f1b4013106</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Species Sighting Catalog</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Species Sighting" source="x_881287_species_0">a5f05a73c3d0d2109adf32f1b4013104</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Species Sighting">a5f05a73c3d0d2109adf32f1b4013104</sys_scope>
+        <sys_update_name>sys_app_module_f0f3a6b3c394d2109adf32f1b4013106</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:42:14</sys_updated_on>
+        <timeline_page/>
+        <title>Species Sighting Catalog</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
