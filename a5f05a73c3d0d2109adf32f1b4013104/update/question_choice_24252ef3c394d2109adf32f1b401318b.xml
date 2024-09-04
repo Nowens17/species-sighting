@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="Is this request for multiple additions?">8c846677c394d2109adf32f1b4013128</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 14:33:42</sys_created_on>
+        <sys_id>24252ef3c394d2109adf32f1b401318b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Multiple</sys_name>
+        <sys_package display_value="Species Sighting" source="x_881287_species_0">a5f05a73c3d0d2109adf32f1b4013104</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Species Sighting">a5f05a73c3d0d2109adf32f1b4013104</sys_scope>
+        <sys_update_name>question_choice_24252ef3c394d2109adf32f1b401318b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 14:33:42</sys_updated_on>
+        <text>Multiple</text>
+        <value>Multiple</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=24252ef3c394d2109adf32f1b401318b"/>
+</record_update>
