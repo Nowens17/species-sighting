@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4455927fc3d0d2109adf32f1b4013130" label="Classification" max_length="40" name="x_881287_species_0_classification" type="collection">
+        <element choice="1" label="Class" max_length="40" name="class" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Domain" max_length="40" name="domain" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Family" max_length="40" name="family" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Genus" max_length="40" name="genus" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Kingdom" max_length="40" name="kingdom" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Order" max_length="40" name="order" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Phylum" max_length="40" name="phylum" type="choice">
+            <choice/>
+        </element>
+        <element display="true" label="Species" mandatory="true" max_length="40" name="species" read_only="true" reference="x_881287_species_0_species" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
