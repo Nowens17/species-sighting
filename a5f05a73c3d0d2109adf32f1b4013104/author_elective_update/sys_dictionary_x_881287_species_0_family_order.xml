@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="order" table="x_881287_species_0_family">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Order</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>order</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Choice">choice</internal_type>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <name>x_881287_species_0_family</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 13:14:37</sys_created_on>
+        <sys_id>09239af7c3d0d2109adf32f1b4013101</sys_id>
+        <sys_name>Order</sys_name>
+        <sys_package display_value="Species Sighting" source="x_881287_species_0">a5f05a73c3d0d2109adf32f1b4013104</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Species Sighting">a5f05a73c3d0d2109adf32f1b4013104</sys_scope>
+        <sys_update_name>sys_dictionary_x_881287_species_0_family_order</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 13:14:38</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Species Sighting">a5f05a73c3d0d2109adf32f1b4013104</application>
+        <file_path/>
+        <instance_id>570fa3801bf9f190fe1b43f4bd4bcbb2</instance_id>
+        <instance_name>dev181906</instance_name>
+        <name>sys_dictionary_x_881287_species_0_family_order</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="order" table="x_881287_species_0_family"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>1</choice><choice_field/><choice_table/><column_label>Order</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>order</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Choice">choice</internal_type><mandatory>true</mandatory><max_length>40</max_length><name>x_881287_species_0_family</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-09-04 13:14:37</sys_created_on><sys_id>09239af7c3d0d2109adf32f1b4013101</sys_id><sys_name>Order</sys_name><sys_package display_value="Species Sighting" source="x_881287_species_0">a5f05a73c3d0d2109adf32f1b4013104</sys_package><sys_policy/><sys_scope display_value="Species Sighting">a5f05a73c3d0d2109adf32f1b4013104</sys_scope><sys_update_name>sys_dictionary_x_881287_species_0_family_order</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-09-04 13:14:38</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-1950768140</payload_hash>
+        <record_name>Family.Order</record_name>
+        <reverted_from/>
+        <source>e1f05a73c3d0d2109adf32f1b4013109</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 13:14:39</sys_created_on>
+        <sys_id>9d239af7c3d0d2109adf32f1b4013199</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>191bd2c3f1d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 13:14:39</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>9d239af7cfd0d210bc6b6314a3245a73</update_guid>
+        <update_guid_history>9d239af7cfd0d210bc6b6314a3245a73:-1950768140,09239af7bbd0d2108479247420e65f66:1092686068</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-04 13:23:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>04b9890b417d4308bbd2fd145501e990</sys_id>
+        <sys_metadata>09239af7c3d0d2109adf32f1b4013101</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Order</sys_name>
+        <sys_package display_value="Species Sighting" source="x_881287_species_0">a5f05a73c3d0d2109adf32f1b4013104</sys_package>
+        <sys_parent display_value="">c28212b7c3d0d2109adf32f1b4013175</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Species Sighting">a5f05a73c3d0d2109adf32f1b4013104</sys_scope>
+        <sys_scope_delete display_value="">0271c564c9fc474a800765ee66c69ec9</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_881287_species_0_family_order</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_881287_species_0_family_order">9d239af7c3d0d2109adf32f1b4013199</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-04 13:23:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

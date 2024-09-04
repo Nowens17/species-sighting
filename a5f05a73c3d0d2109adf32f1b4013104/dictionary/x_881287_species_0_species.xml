@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="687192f3c3d0d2109adf32f1b4013193" label="Species" max_length="40" name="x_881287_species_0_species" type="collection">
+        <element label="Actively tracking" max_length="255" name="actively_tracking" type="boolean"/>
+        <element label="Classification" max_length="32" name="classification" read_only="true" reference="x_881287_species_0_classification" type="reference"/>
+        <element label="Cohabitation (Humans)" max_length="65536" name="cohabitation_humans" type="html"/>
+        <element label="Cohabitation (Other Species)" max_length="65536" name="cohabitation_other_species" type="html"/>
+        <element label="Common misidentification" max_length="65536" name="common_misidentification" type="html"/>
+        <element label="Conservation status" max_length="65536" name="conservation_status" type="html"/>
+        <element label="Diet" max_length="65536" name="diet" type="html"/>
+        <element label="Habitat" max_length="65536" name="habitat" type="html"/>
+        <element label="Identification" max_length="65536" name="identification" type="html"/>
+        <element label="Image" max_length="255" name="image" type="user_image"/>
+        <element label="Last sighting" max_length="255" name="last_sighting" read_only="true" type="glide_date_time"/>
+        <element label="Lifecycle" max_length="65536" name="lifecycle" type="html"/>
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Overview" max_length="65536" name="overview" type="html"/>
+        <element label="Prints" max_length="255" name="prints" type="user_image"/>
+        <element choice="1" label="Rarity" max_length="40" name="rarity" type="choice">
+            <choice/>
+        </element>
+        <element label="Rarity notes" max_length="65536" name="rarity_notes" type="html"/>
+        <element label="Scientific name" max_length="40" name="scientific_name" type="string"/>
+        <element label="Short description" max_length="40" name="short_description" type="string"/>
+        <element label="Signs and Tracks" max_length="65536" name="signs_and_tracks" type="html"/>
+        <element label="Similar species" max_length="32" name="similar_species" type="glide_list"/>
+        <element choice="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Threat to humans" max_length="255" name="threat_to_humans" type="integer">
+            <choice>
+                <element inactive_on_update="false" label="Minimal" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Very Low" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Low" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Relatively Low" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Moderate" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="High" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Relatively High" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Very High" sequence="7" value="8"/>
+                <element inactive_on_update="false" label="Extreme" sequence="8" value="9"/>
+                <element inactive_on_update="false" label="Maximum Threat" sequence="9" value="10"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="classification"/>
+        </index>
+        <index name="index2">
+            <element name="similar_species"/>
+        </index>
+    </element>
+</database>
