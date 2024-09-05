@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="09ff3d105f231000b12e3572f2b4775d" table="sys_ux_theme_customization">
+    <sys_ux_theme_customization action="INSERT_OR_UPDATE">
+        <customization>{"colors":[{"id":"isSecondaryColorUpdated","value":true,"type":"secondary_color_updated"}],"feedback":[],"groupName":""}</customization>
+        <name>Brown Bear</name>
+        <sys_class_name>sys_ux_theme_customization</sys_class_name>
+        <sys_created_by>bandit.heeler</sys_created_by>
+        <sys_created_on>2024-09-05 13:05:46</sys_created_on>
+        <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+        <sys_domain_path>!!!/!!!/</sys_domain_path>
+        <sys_id>09badf4cc3a496109adf32f1b4013136</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Brown Bear</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Species Sighting" source="x_881287_species_0">a5f05a73c3d0d2109adf32f1b4013104</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Species Sighting">a5f05a73c3d0d2109adf32f1b4013104</sys_scope>
+        <sys_update_name>sys_ux_theme_customization_09badf4cc3a496109adf32f1b4013136</sys_update_name>
+        <sys_updated_by>bandit.heeler</sys_updated_by>
+        <sys_updated_on>2024-09-05 13:05:59</sys_updated_on>
+        <theme display_value="Brown Bear">f4ba574cc3a496109adf32f1b40131ef</theme>
+    </sys_ux_theme_customization>
+</record_update>

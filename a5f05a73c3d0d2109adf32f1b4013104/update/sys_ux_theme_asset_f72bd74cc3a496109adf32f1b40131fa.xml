@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="09ff3d105f231000b12e3572f2b4775d" table="sys_ux_theme_asset">
+    <sys_ux_theme_asset action="INSERT_OR_UPDATE">
+        <category>image</category>
+        <name>bear</name>
+        <sys_class_name>sys_ux_theme_asset</sys_class_name>
+        <sys_created_by>bandit.heeler</sys_created_by>
+        <sys_created_on>2024-09-05 13:07:52</sys_created_on>
+        <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+        <sys_domain_path>!!!/!!!/</sys_domain_path>
+        <sys_id>f72bd74cc3a496109adf32f1b40131fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bear</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Species Sighting" source="x_881287_species_0">a5f05a73c3d0d2109adf32f1b4013104</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Species Sighting">a5f05a73c3d0d2109adf32f1b4013104</sys_scope>
+        <sys_update_name>sys_ux_theme_asset_f72bd74cc3a496109adf32f1b40131fa</sys_update_name>
+        <sys_updated_by>bandit.heeler</sys_updated_by>
+        <sys_updated_on>2024-09-05 13:07:52</sys_updated_on>
+    </sys_ux_theme_asset>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>bear.png</file_name>
+        <hash>39e9ca639f90cd8b8a992bad993bc0916318d6324ddba7747c6d7630f049d2f3</hash>
+        <image_height>32</image_height>
+        <image_width>32</image_width>
+        <size_bytes>1166</size_bytes>
+        <size_compressed>1189</size_compressed>
+        <state>available</state>
+        <sys_created_by>bandit.heeler</sys_created_by>
+        <sys_created_on>2024-09-05 13:07:52</sys_created_on>
+        <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
+        <sys_domain_path>!!!/!!!/</sys_domain_path>
+        <sys_id>ff2bd74cc3a496109adf32f1b40131fd</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>bandit.heeler</sys_updated_by>
+        <sys_updated_on>2024-09-05 13:07:52</sys_updated_on>
+        <table_name>sys_ux_theme_asset</table_name>
+        <table_sys_id>f72bd74cc3a496109adf32f1b40131fa</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="bear.png" sys_id="ff2bd74cc3a496109adf32f1b40131fd">ff2bd74cc3a496109adf32f1b40131fd</sys_attachment>
+        <sys_created_by>bandit.heeler</sys_created_by>
+        <sys_created_on>2024-09-05 13:07:52</sys_created_on>
+        <sys_id>332bd74cc3a496109adf32f1b40131fe</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AY4EcfuJUE5HDQoaCgAAAA1JSERSAAAAIAAAACAIBgAAAHN6evQAAAAEc0JJVAgICAh8CGSIAAAACXBIWXMAAADsAAAA7AF5KHG9AAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAABAtJREFUWIXFl01sVFUUx3/n3vdm2tdpp19TKUhRSkxUIm6MieyqqSCpkLDRRBcEDYlrTV0Q3aJsWVWJG1nqtCESY8LKxOU0AhJXoiEtH7Y0nWln2vdxj4vODBWn0gcUfquXe889//PuO/fc84R1nBobGxJrx4FDwKCK/A1c9Jz74uOpqauk4MM3x15MrBkHRoACMAtc0JhT3/w0db1hJ42H04cPv5GIfCfQhYDnW5LYoU4BVhE5Pl4sntuM+LFDb78nKmeBjIjgGwidggKwKE6Onv1x8mIzgC+PHBlWmEbo7B7IUXi6E2MNzikLN5aYmy2DEqnvj/Rty/xpnQwkzopxTm7fqiiANUYVbv8RszuKk4tG8HZ2Z9mez2BEiJ3y18Iqt8ohCmVj3ctfnz9/zQNwcFKgs+epHAND+eabGCN09QVghCSKfWvNz7i1FzHGgQFTt1XnAHjWQJwRbMbS0+5hZG2TPSMM97VhgZly2JU4exI47tW3YcwYoX9HZ1M8Wo2pLq4SRwkA1ho2gwA+QJiwOFfF+oaOziyZdg+AoZ42blZCEnVjAHJ6dLTDBcFSNvB5Zu8AqrC0UCOsRZsSnJupbMouG/jketoQoDSzTC1MiOJazvOCwA/rRi5RKneqxGGyKadpWK1GJFFCvj/A1sdsEPj/2telhdqWiDeII0d5vnb36HE3h2gLPKLVeMvEG0RhQr5+HpsBeBmLn/W2XLxBgJKVdQEEXdnHJg5rJ6Xg1Y9n0JPd7WXt/6/YAjoEdsKw8Tqyo49dvU5OZMSI6siTCgDV143CricWAAx5wOBGs9VYuXB9iR35DG+90NfSJkm05fgPv88wW6lxcLBAh7dhjm33WFcL7sWhVCLHcqKYDe4Ca6XleDVJqEQxrcNr4nkKNwWGW83mPMOx5/IPVCMObi8Q9d23qt4wgs6k9v6oEJk1IubSk9JX1V89p0y3/oobU15JWKzFOJT5hWUA8u0Zutv8VH5EddqzakpO0t2AV24u8cu1MgBzt2YBeG2on/27Cqn8qDElE8aZ34CVNAsHcj57t3UAijXCvsFutnW2pxJHdaWnULhqTkxMRMDlNGv39AcceL4XI4JnDKN7BhnuzaULQOTSiYmJqN4TakmRV9J5gFeHupjPhPc3bIVqCWCtK1YzLXKfktGC/bvzzGfTpvAaIjIN9SpoSUoP5OUhUOdKzQAqtvcSKRPxIanVenuvwLpfs7MfvV9EONLKWkTwMq0vlLnZ1m15HCaN37pWfD8+OXkU6jkAYIz7zKk5ALTda62qGzas0UrKRlZ1xRjzeVO38XDszLnLKvouUE3nMRXLasw7nxSLV/4TAMAHZ76dVNV9CF8B1wH3CERd3deEs/alT4vFqfWT/wAORHWY496PxwAAAABJRU5ErkJggh8jNvuOBAAA</data>
+        <length>1572</length>
+        <position>1</position>
+        <sys_attachment display_value="bear.png" sys_id="ff2bd74cc3a496109adf32f1b40131fd">ff2bd74cc3a496109adf32f1b40131fd</sys_attachment>
+        <sys_created_by>bandit.heeler</sys_created_by>
+        <sys_created_on>2024-09-05 13:07:52</sys_created_on>
+        <sys_id>b32bd74cc3a496109adf32f1b40131fe</sys_id>
+    </sys_attachment_doc>
+</record_update>

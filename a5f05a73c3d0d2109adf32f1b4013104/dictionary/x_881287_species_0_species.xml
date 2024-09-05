@@ -32,15 +32,22 @@
         <element label="Similar species" max_length="32" name="similar_species" type="glide_list"/>
         <element choice="1" label="Status" mandatory="true" max_length="40" name="status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Endangered" sequence="0" value="Endangered"/>
-                <element inactive_on_update="false" label="Threatened" sequence="1" value="Threatened"/>
-                <element inactive_on_update="false" label="Candidate" sequence="2" value="Candidate"/>
-                <element inactive_on_update="false" label="Proposed Endangered" sequence="3" value="Proposed Endangered"/>
-                <element inactive_on_update="false" label="Proposed Threatened" sequence="4" value="Proposed Threatened"/>
-                <element hint="Threatened due to similarity of appearance" inactive_on_update="false" label="SAT" sequence="5" value="SAT"/>
+                <element inactive_on_update="false" label="Data Deficient" sequence="0" value="Data Deficient"/>
+                <element inactive_on_update="false" label="Least Concern" sequence="1" value="Least Concern"/>
+                <element inactive_on_update="false" label="Near Threatened" sequence="2" value="Near Threatened"/>
+                <element inactive_on_update="false" label="Vulnerable" sequence="3" value="Vulnerable"/>
+                <element inactive_on_update="false" label="Endangered" sequence="4" value="Endangered"/>
+                <element inactive_on_update="false" label="Threatened" sequence="5" value="Threatened"/>
+                <element inactive_on_update="false" label="Candidate" sequence="6" value="Candidate"/>
+                <element inactive_on_update="false" label="Proposed Endangered" sequence="7" value="Proposed Endangered"/>
+                <element inactive_on_update="false" label="Proposed Threatened" sequence="8" value="Proposed Threatened"/>
+                <element hint="Threatened due to similarity of appearance" inactive_on_update="false" label="SAT" sequence="9" value="SAT"/>
+                <element inactive_on_update="false" label="Extinct in Wild" sequence="10" value="Extinct in Wild"/>
+                <element inactive_on_update="false" label="Extinct" sequence="11" value="Extinct"/>
             </choice>
         </element>
         <element default="&lt;html&gt;&#10;    &lt;body&gt;&#10;        &lt;h1&gt;Guidelines for Status Levels&lt;/h1&gt;&#10;        &lt;ul&gt;&#10;            &lt;li&gt;&#10;                &lt;strong&gt;E: Endangered: &lt;/strong&gt;&#10;                Any species which is in danger of extinction throughout all or a significant &#10;portion of its range.&#10;            &lt;/li&gt;&#10;            &lt;li&gt;&#10;                &lt;strong&gt;T: Threatened: &lt;/strong&gt;&#10;                Any species which is likely to become endangered within the foreseeable future.&#10;            &lt;/li&gt;&#10;            &lt;li&gt;&#10;                &lt;strong&gt;C: Candidate: &lt;/strong&gt;&#10;                Plants or animals being reviewed for possible addition to the list of &#10;endangered and threatened species.&#10;            &lt;/li&gt;&#10;            &lt;li&gt;&#10;                &lt;strong&gt;PE: Proposed Endangered: &lt;/strong&gt;&#10;                Species officially proposed for listing as endangered; final ruling &#10;                not yet made.&#10;            &lt;/li&gt;&#10;            &lt;li&gt;&#10;                &lt;strong&gt;PT: Proposed Threatened: &lt;/strong&gt;&#10;                Species officially proposed for listing as threatened; final ruling not &#10;yet made.&#10;            &lt;/li&gt;&#10;            &lt;li&gt;&#10;                &lt;strong&gt;SAT: Threatened due to similarity of appearance: &lt;/strong&gt;&#10;                Species is listed for its protection due to &#10;similarity of appearance with another listed species. Species listed as SAT are not biologically &#10;threatened.&#10;            &lt;/li&gt;&#10;        &lt;/ul&gt;&#10;    &lt;/body&gt;&#10;&lt;/html&gt;" function_definition="E: Endangered: Any species which is in danger of extinction throughout all or a significant  portion of its range.  T: Threatened: Any species which is likely to become endangered within the foreseeable future.  C: Candidate: Plants or animals which USFWS is reviewing for possible addition to the list of  endangered and threatened species. PE: Proposed Endangered: Species officially proposed for listing as endangered; final ruling  not yet made. PT: Proposed Threatened: Species officially proposed for listing as threatened; final ruling not  yet made. SAT: Threatened due to similarity of appearance: Species is listed for its protection due to  similarity of appearance with another listed species. Species listed as SAT are not biologically  threatened." label="Status Guidelines" max_length="65536" name="status_guidelines" read_only="true" type="html"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element choice="1" label="Threat to humans" max_length="255" name="threat_to_humans" type="integer">
             <choice>
                 <element inactive_on_update="false" label="Minimal" sequence="0" value="1"/>
@@ -60,6 +67,9 @@
         </index>
         <index name="index2">
             <element name="similar_species"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
         </index>
     </element>
 </database>
