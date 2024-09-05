@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme_asset">
+    <sys_ux_theme_asset action="INSERT_OR_UPDATE">
+        <category>image</category>
+        <name>yeti-32.png</name>
+        <sys_class_name>sys_ux_theme_asset</sys_class_name>
+        <sys_created_by>bandit.heeler</sys_created_by>
+        <sys_created_on>2024-09-04 16:10:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c57b7673c398d2109adf32f1b401319c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>yeti-32.png</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Species Sighting" source="x_881287_species_0">a5f05a73c3d0d2109adf32f1b4013104</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Species Sighting">a5f05a73c3d0d2109adf32f1b4013104</sys_scope>
+        <sys_update_name>sys_ux_theme_asset_c57b7673c398d2109adf32f1b401319c</sys_update_name>
+        <sys_updated_by>bandit.heeler</sys_updated_by>
+        <sys_updated_on>2024-09-04 16:10:45</sys_updated_on>
+    </sys_ux_theme_asset>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>yeti-32.png</file_name>
+        <hash>3994d5938469bd289a05e1bd9f3254083edab845e8af13cc6a4e8db07700f74c</hash>
+        <image_height>32</image_height>
+        <image_width>32</image_width>
+        <size_bytes>1541</size_bytes>
+        <size_compressed>1564</size_compressed>
+        <state>available</state>
+        <sys_created_by>bandit.heeler</sys_created_by>
+        <sys_created_on>2024-09-04 16:10:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>897b7673c398d2109adf32f1b401319f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>bandit.heeler</sys_updated_by>
+        <sys_updated_on>2024-09-04 16:10:45</sys_updated_on>
+        <table_name>sys_ux_theme_asset</table_name>
+        <table_sys_id>c57b7673c398d2109adf32f1b401319c</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="yeti-32.png" sys_id="897b7673c398d2109adf32f1b401319f">897b7673c398d2109adf32f1b401319f</sys_attachment>
+        <sys_created_by>bandit.heeler</sys_created_by>
+        <sys_created_on>2024-09-04 16:10:45</sys_created_on>
+        <sys_id>c97b7673c398d2109adf32f1b401319f</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>2072</length>
+        <position>1</position>
+        <sys_attachment display_value="yeti-32.png" sys_id="897b7673c398d2109adf32f1b401319f">897b7673c398d2109adf32f1b401319f</sys_attachment>
+        <sys_created_by>bandit.heeler</sys_created_by>
+        <sys_created_on>2024-09-04 16:10:45</sys_created_on>
+        <sys_id>4d7b7673c398d2109adf32f1b401319f</sys_id>
+    </sys_attachment_doc>
+</record_update>

@@ -20,18 +20,94 @@
             <element>status</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Endangered</label>
+            <label>Data Deficient</label>
             <language>en</language>
             <name>x_881287_species_0_species</name>
             <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>bandit.heeler</sys_created_by>
+            <sys_created_on>2024-09-05 13:17:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bandit.heeler</sys_updated_by>
+            <sys_updated_on>2024-09-05 13:17:22</sys_updated_on>
+            <value>Data Deficient</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Least Concern</label>
+            <language>en</language>
+            <name>x_881287_species_0_species</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>bandit.heeler</sys_created_by>
+            <sys_created_on>2024-09-05 13:17:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bandit.heeler</sys_updated_by>
+            <sys_updated_on>2024-09-05 13:17:23</sys_updated_on>
+            <value>Least Concern</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Near Threatened</label>
+            <language>en</language>
+            <name>x_881287_species_0_species</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>bandit.heeler</sys_created_by>
+            <sys_created_on>2024-09-05 13:17:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bandit.heeler</sys_updated_by>
+            <sys_updated_on>2024-09-05 13:17:23</sys_updated_on>
+            <value>Near Threatened</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Vulnerable</label>
+            <language>en</language>
+            <name>x_881287_species_0_species</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>bandit.heeler</sys_created_by>
+            <sys_created_on>2024-09-05 13:17:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bandit.heeler</sys_updated_by>
+            <sys_updated_on>2024-09-05 13:17:23</sys_updated_on>
+            <value>Vulnerable</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Endangered</label>
+            <language>en</language>
+            <name>x_881287_species_0_species</name>
+            <sequence>4</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-09-04 14:48:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-04 14:48:39</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>bandit.heeler</sys_updated_by>
+            <sys_updated_on>2024-09-05 13:17:23</sys_updated_on>
             <value>Endangered</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -42,15 +118,15 @@
             <label>Threatened</label>
             <language>en</language>
             <name>x_881287_species_0_species</name>
-            <sequence>1</sequence>
+            <sequence>5</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-09-04 14:48:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-04 14:48:39</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>bandit.heeler</sys_updated_by>
+            <sys_updated_on>2024-09-05 13:17:23</sys_updated_on>
             <value>Threatened</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -61,15 +137,15 @@
             <label>Candidate</label>
             <language>en</language>
             <name>x_881287_species_0_species</name>
-            <sequence>2</sequence>
+            <sequence>6</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-09-04 14:48:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-04 14:48:39</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>bandit.heeler</sys_updated_by>
+            <sys_updated_on>2024-09-05 13:17:23</sys_updated_on>
             <value>Candidate</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -80,15 +156,15 @@
             <label>Proposed Endangered</label>
             <language>en</language>
             <name>x_881287_species_0_species</name>
-            <sequence>3</sequence>
+            <sequence>7</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-09-04 14:48:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-04 14:48:39</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>bandit.heeler</sys_updated_by>
+            <sys_updated_on>2024-09-05 13:17:23</sys_updated_on>
             <value>Proposed Endangered</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -99,15 +175,15 @@
             <label>Proposed Threatened</label>
             <language>en</language>
             <name>x_881287_species_0_species</name>
-            <sequence>4</sequence>
+            <sequence>8</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-09-04 14:48:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-04 14:48:39</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>bandit.heeler</sys_updated_by>
+            <sys_updated_on>2024-09-05 13:17:23</sys_updated_on>
             <value>Proposed Threatened</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -118,16 +194,54 @@
             <label>SAT</label>
             <language>en</language>
             <name>x_881287_species_0_species</name>
-            <sequence>5</sequence>
+            <sequence>9</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2024-09-04 14:48:39</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2024-09-04 14:50:14</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>bandit.heeler</sys_updated_by>
+            <sys_updated_on>2024-09-05 13:17:23</sys_updated_on>
             <value>SAT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Extinct in Wild</label>
+            <language>en</language>
+            <name>x_881287_species_0_species</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>bandit.heeler</sys_created_by>
+            <sys_created_on>2024-09-05 13:17:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bandit.heeler</sys_updated_by>
+            <sys_updated_on>2024-09-05 13:17:23</sys_updated_on>
+            <value>Extinct in Wild</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>status</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Extinct</label>
+            <language>en</language>
+            <name>x_881287_species_0_species</name>
+            <sequence>11</sequence>
+            <synonyms/>
+            <sys_created_by>bandit.heeler</sys_created_by>
+            <sys_created_on>2024-09-05 13:17:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>bandit.heeler</sys_updated_by>
+            <sys_updated_on>2024-09-05 13:17:23</sys_updated_on>
+            <value>Extinct</value>
         </sys_choice>
     </sys_choice>
 </record_update>
