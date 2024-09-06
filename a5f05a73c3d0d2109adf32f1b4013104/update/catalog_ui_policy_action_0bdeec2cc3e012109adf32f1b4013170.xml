@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:824eece0c3e012109adf32f1b401311d</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-06 13:52:05</sys_created_on>
+        <sys_id>0bdeec2cc3e012109adf32f1b4013170</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>removal_needed</sys_name>
+        <sys_package display_value="Species Sighting" source="x_881287_species_0">a5f05a73c3d0d2109adf32f1b4013104</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Species Sighting">a5f05a73c3d0d2109adf32f1b4013104</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_0bdeec2cc3e012109adf32f1b4013170</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-06 13:52:05</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Display removal_needed field when update_type is Removal">789ee02cc3e012109adf32f1b40131d2</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>removal_needed</variable>
+        <variable_set display_value="Species Classification Cat Item MRVS">7fa8a06cc3a012109adf32f1b4013123</variable_set>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>
